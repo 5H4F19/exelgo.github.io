@@ -1,1 +1,1 @@
-https:// exelgo.github.io
+http://exelgo.github.io
