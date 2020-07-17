@@ -1,0 +1,81 @@
+body{
+    
+   background: url(Untitled-5.jpg);
+   background-size: cover;
+   background-position:center ;
+   background-repeat: repeat;
+   overflow: hidden;
+   
+}
+#we{
+    box-sizing: border-box;
+    justify-content: center;
+    background: #fff;  
+    margin-top: 40px;
+    padding: 60px 30px; 
+    position: relative;
+    z-index: 100;
+}
+
+img{
+    margin-top:calc(40vh/2);
+}
+#icon{
+     margin: 0;
+     padding: 0;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Jura;
+    color: #282828;
+    letter-spacing: 2px;
+}
+div .fj{
+    padding:0;
+    margin: 0;
+    box-sizing: content-box;
+    box-shadow: 1px 2px 5px red solid !important;
+}
+a{
+    text-align: center;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    font-family: Jura;
+    color: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%,#00e2fa 100%) !important;
+    outline: none;
+    border: none;
+    width:10em;
+    font-size: 20px;
+    padding:2px 40px;
+    border-radius: 60px;
+    background: linear-gradient(to right, #52A0FD 0%, #00e2fa 80%,#00e2fa 100%) !important;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    z-index: 3;
+    box-shadow: 1px 2px 5px #00e2fa solid;
+    
+    
+}
+a #icon{
+    color: #00e2fa !important;
+}
+a:hover #icon{
+    color: #52A0FD !important;
+}
+a:hover{
+    color:  linear-gradient(to right, #52A0FD 0%, #00e2fa 80%,#00e2fa 100%) !important;
+    background:  linear-gradient(to left, #52A0FD 0%, #00e2fa 80%,#00e2fa 100%) !important;
+}
+
+
+
+@font-face{
+    font-family: "JetBrainsMono-Regular";
+    src:url('JetBrainsMono-Regular.ttf');
+}
+@font-face{
+    font-family: "Jura";
+    src:url('Jura-Regular.ttf');
+}
+
